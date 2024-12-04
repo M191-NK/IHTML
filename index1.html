@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent { border-radius: 10px;margin-bottom: 10px; display: flex;gap: 30px; border: 2px solid black;}
+
+        .nav1 { margin-right: 10vh; padding-top: 10px;}
+
+        .nav2{ 
+            gap: 30px;
+            height: 30px;
+            padding-top: 10px;
+            width: 50px;
+            margin-right: 100vh;
+        }
+        .nav2 input{
+            height: 40px;
+            width: 1000px;
+            border-radius: 20px;
+            font-size: 30px;
+        }
+        .product{border: 2px solid black;border-radius: 20px;}
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="nav1">
+            <img style="height: 50px;" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
+                alt="">
+        </div>
+        <div class="nav2">
+            <a style="height: 50px;" href="1"></a>
+            <input type="text" name="" id="1" placeholder="SEARCH">
+        </div>
+        <div class="nav3">
+            <ul style="display: flex; gap: 40px; list-style-type: none;font-size: 20px;">
+                <li><a href="login">Login</a></li>
+        <li><a href="CART">Cart</a></li>
+        <li><a href="become a seller">Become a Seller</a></li>
+    <li><a href="menu">Menu</a></li></ul></div>
+    
+    </div>
+    <div class="product">
+        <ul style=" display: flex;list-style-type: none; gap: 90px;">
+            <li><a href="grocery"><img style="height: 100px;" src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100" grocery alt=""></a></li>
+            <li><a href="mobile"><img style="height: 100px;" src="https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100" alt=""></a></li>
+            <li><a href="appliances"><img style="height: 100px;" src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100" alt=""></a></li>
+            <li><a href="flight"><img style="height: 100px;padding-bottom: 1px;" src="https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100" alt=""></a></li>
+           
+        </ul>
+    </div>
+    <div class="slidewar">
+    <div class="myslidesfade">
+        <div class="numbertext">1/3</div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/ec15c0f7104ee235.jpg?q=20" style="width: 100%;" alt="">
+        <div class="text">Caption Text</div>
+    </div>
+    <div class="slidewar">
+        <div class="myslidesfade">
+            <div class="numbertext">2/3</div>
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/b3134745fbc9f0d8.jpg?q=20" style="width: 100%;" alt="">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="slidewar">
+            <div class="myslidesfade">
+                <div class="numbertext">3/3</div>
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1316eb53d6f52c71.jpg?q=20" style="width: 100%;" alt="">
+                <div class="text">Caption Text</div>
+               
+            </div>
+            <a class="prew" onclick="plusslides(-1)">&#10094</a>
+            <a class="prew" onclick="plusslides(1)">&#10095</a>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentslide(1)"></span>
+        <span class="dot" onclick="currentslide(2)"></span>
+        <span class="dot" onclick="currentslide(3)"></span>
+    </div>
+</body>
+
+</html>

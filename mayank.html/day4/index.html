@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            border: 3px solid black;
+            height: 8vh;
+            background-color: chocolate;
+            display: flex;
+        }
+
+        .nav1 {
+            margin-right: 700px;
+        }
+
+        .nav2 {
+            margin-right: 500px;
+            margin-top: 15px;
+        }
+
+        .nav3 {
+            margin-top: 15px;
+        }
+
+        .nav2 ul li a:hover {
+            background-color: rgb(10, 12, 11);
+            cursor: pointer;
+            color: #dcd2d2;
+            overflow: hidden;
+        }
+
+        .nav3 ul li a:hover {
+            background-color: rgb(22, 27, 25);
+            cursor: pointer;
+            color: #ddc9c9;
+        }
+
+        .parent {
+            background-image: url(https://images.pexels.com/photos/175709/pexels-photo-175709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            height: 90vh;
+            border: 3px solid black;
+            border-top: 9%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .box div {
+            width: 50px;
+            height: 50px;
+        }
+
+        .box div:hover {
+            width: 200px;
+            transition-duration: 3s;
+        }
+
+        .box1 {
+            border: 2px solid;
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            left: 0px;
+            top: 200px;
+            background-color: rgb(255, 145, 0);
+        }
+
+        .box2 {
+            border: 2px solid;
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            left: 0px;
+            top: 270px;
+            background-color: rgb(255, 145, 0);
+        }
+
+        .box3 {
+            border: 2px solid;
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            left: 0px;
+            top: 340px;
+            background-color: rgb(255, 145, 0);
+        }
+
+        .box4 {
+            border: 2px solid;
+            height: 40px;
+            width: 200px;
+            position: absolute;
+            top: 410px;
+            left: 0px;
+            background-color: rgb(255, 145, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav1"><img src="https://thumbs.dreamstime.com/z/stylish-logo-18375633.jpg" alt=""
+                style="height: 80px;"></div>
+        <div class="nav2">
+            <ul style="display: flex;gap: 30px;list-style-type:none;">
+                <li><a href="1">HOME</a></li>
+                <li><a href="2">INFORMATION</a></li>
+                <li><a href="3">CONTACT US</a></li>
+                <li><a href="4">ABOUT US</a></li>
+            </ul>
+        </div>
+        <div class="nav3">
+            <ul style="display: flex;gap: 30px;list-style-type:none; border: 1px snow; height: 50px;  target="_blank" >
+                <li><a href="5"><button>SEARCH</button style="display: flex;gap: 30px;list-style-type:none; border: 1px snow; height: 50px;" targ></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="class1"></div>
+        <div class="class2"></div>
+        <div class="box div">
+            <div class="box1" style="justify-content: center;display: flex; height:40px;"><img
+                    src="https://th.bing.com/th?id=ODLS.61da4b22-db99-4f03-ac15-9f21dd1ef0f4&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+                    alt=""></div>
+            <div class="box2" style="justify-content: center;display: flex; height:40px;"><img
+                    src="https://th.bing.com/th?id=ODLS.ed551f5f-86b4-4f3c-b131-c5f6234517b7&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+                    alt=""></div>
+            <div class="box3" style="justify-content: center;display: flex; height:40px;"><img
+                    src="https://th.bing.com/th?id=ODLS.0bf2b874-2402-4cbb-849c-e63ce5a1b526&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"
+                    alt=""></div>
+            <div class="box4" style="justify-content: center;display: flex; height:40px;"><img
+                    src="https://th.bing.com/th?id=ODLS.03245701-8d3e-443e-af13-66e289085f86&w=18&h=18&o=6&pid=1.2"
+                    alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>
